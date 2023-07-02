@@ -7,7 +7,7 @@
 
   ga('create', '<%= DC::CONFIG['google_analytics_id'] %>', 'auto');
   ga('send', 'pageview'<%=raw ", '#{pageview_url}'" if defined?(pageview_url) %>);
-  ga('create', 'UA-63787251-6', 'auto', {'name': 'sourceAFRICA'});
+  ga('create', 'G-FX0QWY40JF', 'auto', {'name': 'sourceAFRICA'});
   ga('sourceAFRICA.send', 'pageview'<%=raw ", '#{pageview_url}'" if defined?(pageview_url) %>);
 </script>
 <% end %>
